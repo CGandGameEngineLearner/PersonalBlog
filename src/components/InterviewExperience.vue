@@ -78,7 +78,7 @@
                   5. 你有什么问题想问面试官的吗？
                 </div>
                 <div class="article-info-bar">
-                  <a href="//space.bilibili.com/19319172#!/" target="_blank"
+                  <a  target="_blank"
                      class="up-content">
                       <span class="face-holder">
                       <img

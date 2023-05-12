@@ -8,6 +8,7 @@ import Chat from '../components/Chat.vue'
 
 import NetEasesFaceExperience0 from '../components/Articles/InterviewExperienceArticles/NetEasesFaceExperience0.vue'
 import NetEasesFaceExperience1 from '../components/Articles/InterviewExperienceArticles/NetEasesFaceExperience1.vue'
+import TechnicalArticle1 from '../components/Articles/TechnicalTutorials/TechnicalArticle1.vue'
 
 const routes = [
   {
@@ -42,8 +43,13 @@ const routes = [
   },
   {
     path: '/InterviewExperienceArticles/NetEasesFaceExperience1',
-    name: 'NetEasesFaceExperience0',
+    name: 'NetEasesFaceExperience1',
     component: NetEasesFaceExperience1
+  },
+  {
+    path: '/TechnicalTutorials/TechnicalArticle1',
+    name: 'TechnicalArticle1',
+    component: TechnicalArticle1
   }
 ]
 
