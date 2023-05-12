@@ -25,11 +25,6 @@
               </router-link>
             </div>
             <div class="nav-item">
-              <router-link to="/News">
-                新闻资讯
-              </router-link>
-            </div>
-            <div class="nav-item">
               <router-link to="/Chat">
                 聊聊别的
               </router-link>

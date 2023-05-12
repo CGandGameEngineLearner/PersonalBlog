@@ -9,6 +9,10 @@ import Chat from '../components/Chat.vue'
 import NetEasesFaceExperience0 from '../components/Articles/InterviewExperienceArticles/NetEasesFaceExperience0.vue'
 import NetEasesFaceExperience1 from '../components/Articles/InterviewExperienceArticles/NetEasesFaceExperience1.vue'
 import TechnicalArticle1 from '../components/Articles/TechnicalTutorials/TechnicalArticle1.vue'
+import CtoCPPandUnrealEngineArticle0
+  from '../components/Articles/TechnicalTutorials/CtoCPPandUnrealEngineArticle0.vue'
+import CtoCPPandUnrealEngineArticle1 from '../components/Articles/TechnicalTutorials/CtoCPPandUnrealEngineArticle1.vue'
+import CtoCPPandUnrealEngineArticle3 from '../components/Articles/TechnicalTutorials/CtoCPPandUnrealEngineArticle3.vue'
 
 const routes = [
   {
@@ -50,6 +54,21 @@ const routes = [
     path: '/TechnicalTutorials/TechnicalArticle1',
     name: 'TechnicalArticle1',
     component: TechnicalArticle1
+  },
+  {
+    path: '/TechnicalTutorials/CtoCPPandUnrealEngineArticle0',
+    name: 'CtoCPPandUnrealEngineArticle0',
+    component: CtoCPPandUnrealEngineArticle0
+  },
+  {
+    path: '/TechnicalTutorials/CtoCPPandUnrealEngineArticle1',
+    name: 'CtoCPPandUnrealEngineArticle1',
+    component: CtoCPPandUnrealEngineArticle1
+  },
+  {
+    path: '/TechnicalTutorials/CtoCPPandUnrealEngineArticle3',
+    name: 'CtoCPPandUnrealEngineArticle3',
+    component: CtoCPPandUnrealEngineArticle3
   }
 ]
 
